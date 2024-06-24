@@ -1,3 +1,32 @@
+body{
+  background-color: rgb(3, 3, 3) ;
+  color : rgb(240, 197, 26);
+  border : 1px solid rgb(240, 197, 26);
+}
+h1{
+  color : white
+}
+.custom-button {
+  background-color: white; /* Green background */
+  border: none; /* Remove borders */
+  color: black; /* White text */
+  padding: 10px 10px; /* Some padding */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make the button inline */
+  font-size: 15px; /* Increase font size */
+  margin: 4px 2px; /* Some margin */
+  cursor: pointer; /* Pointer/hand icon */
+  border-radius: 8px; /* Rounded corners */
+  transition-duration: 0.4s; /* 0.4 second transition effect */
+}
+
+.custom-button:hover {
+  background-color: rgb(240, 197, 26) ; /* White background on hover */
+  color: black; /* Black text on hover */
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); /* Add a shadow on hover */
+}
+
 .App {
   text-align: center;
 }
